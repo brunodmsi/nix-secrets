@@ -21,6 +21,8 @@ in
   "smtpPassword.age".publicKeys = all;
   "bwSession.age".publicKeys = all;
 
+  "cloudflareTunnelToken.age".publicKeys = all;
+
   # Sweet machine secrets
   "wireguardCredentials.age".publicKeys = all;
   "borgBackupKey.age".publicKeys = all;
