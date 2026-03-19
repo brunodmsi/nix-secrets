@@ -23,6 +23,12 @@ in
 
   "cloudflareTunnelToken.age".publicKeys = all;
 
+  # Authelia
+  "autheliaJwtSecret.age".publicKeys = all;
+  "autheliaSessionSecret.age".publicKeys = all;
+  "autheliaStorageEncryptionKey.age".publicKeys = all;
+  "autheliaUsersFile.age".publicKeys = all;
+
   # Sweet machine secrets
   "wireguardCredentials.age".publicKeys = all;
   "borgBackupKey.age".publicKeys = all;
