@@ -23,6 +23,9 @@ in
 
   "cloudflareTunnelToken.age".publicKeys = all;
 
+  # VPN
+  "mullvadWireguard.age".publicKeys = all;
+
   # Authelia
   "autheliaJwtSecret.age".publicKeys = all;
   "autheliaSessionSecret.age".publicKeys = all;
