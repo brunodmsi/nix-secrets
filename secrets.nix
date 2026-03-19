@@ -24,7 +24,6 @@ in
   # Sweet machine secrets
   "wireguardCredentials.age".publicKeys = all;
   "borgBackupKey.age".publicKeys = all;
-  "cloudflareFirewallApiKey.age".publicKeys = all;
   "keycloakDbPasswordFile.age".publicKeys = all;
   "keycloakCloudflared.age".publicKeys = all;
   "adiosBotToken.age".publicKeys = all;
