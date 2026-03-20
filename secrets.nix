@@ -21,6 +21,9 @@ in
   "autheliaStorageEncryptionKey.age".publicKeys = all;
   "autheliaUsersFile.age".publicKeys = all;
 
+  # User password
+  "hashedUserPassword.age".publicKeys = all;
+
   # Nextcloud
   "nextcloudAdminPassword.age".publicKeys = all;
 }
