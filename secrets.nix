@@ -8,26 +8,12 @@ let
   all = [ sweet user ];
 in
 {
-  # Shared secrets
-  "hashedUserPassword.age".publicKeys = all;
-  "sambaPassword.age".publicKeys = all;
+  # Cloudflare
   "cloudflareDnsApiCredentials.age".publicKeys = all;
-  "cloudflareFirewallApiKey.age".publicKeys = all;
-  "tailscaleAuthKey.age".publicKeys = all;
-  "resticBackblazeEnv.age".publicKeys = all;
-  "tgNotifyCredentials.age".publicKeys = all;
-  "gitIncludes.age".publicKeys = all;
-  "frpToken.age".publicKeys = all;
-  "smtpPassword.age".publicKeys = all;
-  "bwSession.age".publicKeys = all;
-
   "cloudflareTunnelToken.age".publicKeys = all;
 
   # VPN
   "mullvadWireguard.age".publicKeys = all;
-
-  # Nextcloud
-  "nextcloudAdminPassword.age".publicKeys = all;
 
   # Authelia
   "autheliaJwtSecret.age".publicKeys = all;
@@ -35,28 +21,6 @@ in
   "autheliaStorageEncryptionKey.age".publicKeys = all;
   "autheliaUsersFile.age".publicKeys = all;
 
-  # Sweet machine secrets
-  "wireguardCredentials.age".publicKeys = all;
-  "borgBackupKey.age".publicKeys = all;
-  "keycloakDbPasswordFile.age".publicKeys = all;
-  "keycloakCloudflared.age".publicKeys = all;
-  "adiosBotToken.age".publicKeys = all;
-  "borgBackupSSHKey.age".publicKeys = all;
-  "paperlessWebdav.age".publicKeys = all;
-  "slskdEnvironmentFile.age".publicKeys = all;
-  "paperlessPassword.age".publicKeys = all;
-  "nextcloudCloudflared.age".publicKeys = all;
-  "navidromeCloudflared.age".publicKeys = all;
-  "navidromeEnv.age".publicKeys = all;
+  # Nextcloud
   "nextcloudAdminPassword.age".publicKeys = all;
-  "vaultwardenCloudflared.age".publicKeys = all;
-  "microbinCloudflared.age".publicKeys = all;
-  "minifluxAdminPassword.age".publicKeys = all;
-  "minifluxCloudflared.age".publicKeys = all;
-  "duckDNSDomain.age".publicKeys = all;
-  "duckDNSToken.age".publicKeys = all;
-  "withings2intervals.age".publicKeys = all;
-  "withings2intervals_authcode.age".publicKeys = all;
-  "resticPassword.age".publicKeys = all;
-  "oauth2ProxyEnvFile.age".publicKeys = all;
 }
