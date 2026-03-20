@@ -26,6 +26,9 @@ in
   # VPN
   "mullvadWireguard.age".publicKeys = all;
 
+  # Nextcloud
+  "nextcloudAdminPassword.age".publicKeys = all;
+
   # Authelia
   "autheliaJwtSecret.age".publicKeys = all;
   "autheliaSessionSecret.age".publicKeys = all;
