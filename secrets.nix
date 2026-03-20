@@ -24,6 +24,9 @@ in
   # User password
   "hashedUserPassword.age".publicKeys = all;
 
+  # Paperless
+  "paperlessPassword.age".publicKeys = all;
+
   # Nextcloud
   "nextcloudAdminPassword.age".publicKeys = all;
 }
