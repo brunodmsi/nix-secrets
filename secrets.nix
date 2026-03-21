@@ -24,6 +24,9 @@ in
   # User password
   "hashedUserPassword.age".publicKeys = all;
 
+  # WhatsApp
+  "whatsappAllowedSenders.age".publicKeys = all;
+
   # OpenFang
   "openfangApiKey.age".publicKeys = all;
 
