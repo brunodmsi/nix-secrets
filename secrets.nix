@@ -27,6 +27,9 @@ in
   # WhatsApp
   "whatsappAllowedSenders.age".publicKeys = all;
 
+  # Jellyseerr
+  "jellyseerrApiKey.age".publicKeys = all;
+
   # OpenFang
   "openfangApiKey.age".publicKeys = all;
 
