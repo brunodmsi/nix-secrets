@@ -20,6 +20,11 @@ in
   "autheliaSessionSecret.age".publicKeys = all;
   "autheliaStorageEncryptionKey.age".publicKeys = all;
   "autheliaUsersFile.age".publicKeys = all;
+  "autheliaOidcHmacSecret.age".publicKeys = all;
+  "autheliaOidcIssuerPrivateKey.age".publicKeys = all;
+
+  # Immich OAuth
+  "immichOAuthClientSecret.age".publicKeys = all;
 
   # User password
   "hashedUserPassword.age".publicKeys = all;
