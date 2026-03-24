@@ -25,6 +25,7 @@ in
 
   # Immich OAuth
   "immichOAuthClientSecret.age".publicKeys = all;
+  "immichOAuthClientSecretHash.age".publicKeys = all;
 
   # User password
   "hashedUserPassword.age".publicKeys = all;
