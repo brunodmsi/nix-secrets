@@ -44,6 +44,7 @@ in
 
   # Paperless
   "paperlessPassword.age".publicKeys = all;
+  "paperlessApiKey.age".publicKeys = all;
 
   # Nextcloud
   "nextcloudAdminPassword.age".publicKeys = all;
