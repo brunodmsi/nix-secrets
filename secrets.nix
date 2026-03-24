@@ -36,6 +36,9 @@ in
   # Jellyseerr
   "jellyseerrApiKey.age".publicKeys = all;
 
+  # Jellyfin
+  "jellyfinApiKey.age".publicKeys = all;
+
   # OpenFang
   "openfangApiKey.age".publicKeys = all;
 
