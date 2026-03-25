@@ -52,4 +52,7 @@ in
   # Nextcloud
   "nextcloudAdminPassword.age".publicKeys = all;
   "nextcloudAppPassword.age".publicKeys = all;
+
+  # Searcher
+  "tavilyApiKey.age".publicKeys = all;
 }
