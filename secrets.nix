@@ -42,6 +42,9 @@ in
   # OpenFang
   "openfangApiKey.age".publicKeys = all;
 
+  # Gemini (Car Scout Hand)
+  "geminiApiKey.age".publicKeys = all;
+
   # Paperless
   "paperlessPassword.age".publicKeys = all;
   "paperlessApiKey.age".publicKeys = all;
