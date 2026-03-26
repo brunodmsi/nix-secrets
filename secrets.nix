@@ -55,4 +55,7 @@ in
 
   # Searcher
   "tavilyApiKey.age".publicKeys = all;
+
+  # GitHub
+  "githubToken.age".publicKeys = all;
 }
