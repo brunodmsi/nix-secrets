@@ -12,6 +12,8 @@ in
   "cloudflareDnsApiCredentials.age".publicKeys = all;
   "cloudflareTunnelToken.age".publicKeys = all;
 
+  "minifluxAdminPassword.age".publicKeys = all;
+
   # VPN
   "mullvadWireguard.age".publicKeys = all;
 
