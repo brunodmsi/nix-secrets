@@ -8,6 +8,8 @@ let
   all = [ sweet user ];
 in
 {
+  "prenotamiEnv.age".publicKeys = all;
+
   # Cloudflare
   "cloudflareDnsApiCredentials.age".publicKeys = all;
   "cloudflareTunnelToken.age".publicKeys = all;
