@@ -11,6 +11,7 @@ in
   # Cloudflare
   "cloudflareDnsApiCredentials.age".publicKeys = all;
   "cloudflareTunnelToken.age".publicKeys = all;
+  "cloudflareFirewallApiKey.age".publicKeys = all;
 
   "minifluxAdminPassword.age".publicKeys = all;
 
