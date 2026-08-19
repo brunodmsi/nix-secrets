@@ -15,6 +15,11 @@ in
   "cloudflareTunnelToken.age".publicKeys = all;
   "cloudflareFirewallApiKey.age".publicKeys = all;
 
+  "atticEnv.age".publicKeys = all;
+  "resticPassword.age".publicKeys = all;
+  "resticB2Credentials.age".publicKeys = all;
+  "ntfyAdminPassword.age".publicKeys = all;
+
   "minifluxAdminPassword.age".publicKeys = all;
 
   # VPN
