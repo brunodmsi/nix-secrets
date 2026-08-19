@@ -14,7 +14,7 @@ in
   "cloudflareDnsApiCredentials.age".publicKeys = all;
   "cloudflareTunnelToken.age".publicKeys = all;
   "cloudflareFirewallApiKey.age".publicKeys = all;
-
+  "autokumaEnv.age".publicKeys = all;
   "atticEnv.age".publicKeys = all;
   "resticPassword.age".publicKeys = all;
   "resticB2Credentials.age".publicKeys = all;
