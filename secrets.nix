@@ -19,6 +19,7 @@ in
   "resticPassword.age".publicKeys = all;
   "resticB2Credentials.age".publicKeys = all;
   "ntfyAdminPassword.age".publicKeys = all;
+  "hermesEnv.age".publicKeys = all;
 
   "minifluxAdminPassword.age".publicKeys = all;
 
