@@ -21,6 +21,8 @@ in
   "ntfyAdminPassword.age".publicKeys = all;
   "hermesEnv.age".publicKeys = all;
 
+  "homepageEnv.age".publicKeys = all;
+
   "minifluxAdminPassword.age".publicKeys = all;
 
   # VPN
