@@ -18,6 +18,7 @@ in
   "atticEnv.age".publicKeys = all;
   "resticPassword.age".publicKeys = all;
   "resticB2Credentials.age".publicKeys = all;
+  "searxngEnv.age".publicKeys = all;
   "ntfyAdminPassword.age".publicKeys = all;
   "hermesEnv.age".publicKeys = all;
 
