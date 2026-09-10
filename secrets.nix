@@ -37,6 +37,8 @@ in
   "autheliaOidcHmacSecret.age".publicKeys = all;
   "autheliaOidcIssuerPrivateKey.age".publicKeys = all;
 
+  "aiMemoryEnv.age".publicKeys = all;
+
   # Immich OAuth
   "immichOAuthClientSecret.age".publicKeys = all;
   "immichOAuthClientSecretHash.age".publicKeys = all;
