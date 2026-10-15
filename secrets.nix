@@ -21,7 +21,7 @@ in
   "searxngEnv.age".publicKeys = all;
   "ntfyAdminPassword.age".publicKeys = all;
   "hermesEnv.age".publicKeys = all;
-
+  "ntfyMausbotPassword.age".publicKeys = all;
   "homepageEnv.age".publicKeys = all;
 
   "minifluxAdminPassword.age".publicKeys = all;
